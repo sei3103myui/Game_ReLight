@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Scenes/Result/Title.unity
+    guid: 844cb6fcac68e954f9df6e2d0e706dff
+  - enabled: 1
+    path: Assets/Scenes/MainStage.unity
+    guid: 4d4d69bd47e598c4290e0babc50d7409
+  - enabled: 1
+    path: Assets/Scenes/OtherStage/Park.unity
+    guid: 17b94c1be6f43aa42a3f1c3f100623ec
+  - enabled: 1
+    path: Assets/Scenes/OtherStage/school road.unity
+    guid: 913183e5a1094454fa6439ece7e5e1be
+  - enabled: 1
+    path: Assets/Scenes/OtherStage/School.unity
+    guid: 8ef620e7ed26e2f4683ba4fdcf9b2fe7
+  - enabled: 1
+    path: Assets/Scenes/OtherStage/School2.unity
+    guid: ab8cfefa7e571bb429946525f1f85935
+  - enabled: 1
+    path: Assets/Scenes/OtherStage/Hosptal3.unity
+    guid: 5ffe3bb4d45d5964f9b57900aec6f430
+  - enabled: 1
+    path: Assets/Scenes/OtherStage/Hospital.unity
+    guid: 23bca3dd5628fc049beb592ee7a53e1c
+  - enabled: 1
+    path: Assets/Scenes/OtherStage/Hosptal2.unity
+    guid: c70b46ee4194e194f8be0826ea25f6ca
+  - enabled: 1
+    path: Assets/Scenes/Result/End.unity
+    guid: 20b906d3d1dc14b4f83bcd9a131ed209
+  m_configObjects:
+    com.unity.input.settings: {fileID: 11400000, guid: 67271062e37297a4ca84bdd26dd03c4b, type: 2}
