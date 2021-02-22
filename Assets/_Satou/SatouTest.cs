@@ -1,0 +1,17 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class SatouTest : MonoBehaviour
+{
+    // テンプレート
+    void Start()
+    {
+        
+    }
+
+    void Update()
+    {
+        
+    }
+}
