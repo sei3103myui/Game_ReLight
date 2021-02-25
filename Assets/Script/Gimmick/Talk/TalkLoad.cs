@@ -34,21 +34,9 @@ public class TalkLoad : MonoBehaviour
     private string characterName;
     private string word;
     
-    //TextAsset csvFile;
-    //List<string[]> csvDatas = new List<string[]>();
-
     // Start is called before the first frame update
     void Start()
     {
-        //csvFile = Resources.Load("CSV/Talk/" + csvFileName) as TextAsset;
-        //StringReader reader = new StringReader(csvFile.text);
-
-        //while (reader.Peek() != -1)
-        //{
-        //    string line = reader.ReadLine();
-        //    csvDatas.Add(line.Split(','));
-        //}
-
         talkText.text = null;//テキストの初期化
         if(talkmode == TalkMode.OnName)
         {

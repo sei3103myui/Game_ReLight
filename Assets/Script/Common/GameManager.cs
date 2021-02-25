@@ -21,7 +21,7 @@ public class GameManager : MonoBehaviour
     public bool onTalk = false;
     void Start()
     {
-        
+
     }
 
     void Update()
@@ -32,13 +32,13 @@ public class GameManager : MonoBehaviour
         }
         if(gameMode == GameMode.Search)
         {
-            
+
             if (Keyboard.current.spaceKey.isPressed)
             {
                 gameMode = GameMode.Play;
             }
         }
-        //‰ï˜bƒtƒ‰ƒO‚ª‚½‚Á‚Ä‚¢‚ê‚Î
+        //ãƒˆãƒ¼ã‚¯ãƒ•ãƒ©ã‚°ãŒONãªã‚‰
         if (playerController.isTalk)
         {
             if (talkManager.talkFlg && Keyboard.current.ctrlKey.isPressed)
@@ -51,16 +51,16 @@ public class GameManager : MonoBehaviour
                 }
             }
         }
-        //ƒg[ƒNƒ‚[ƒh‚©‚Â‰ï˜b‚ªI—¹‚µ‚Ä‚¢‚ê‚Î
+        //
         if (gameMode == GameMode.Talk && !onTalk)
         {
-           
+
             gameMode = GameMode.Play;
             if (Keyboard.current.spaceKey.isPressed)
             {
 
             }
-           
+
         }
 
         if (playerController.isFinish)
@@ -71,7 +71,7 @@ public class GameManager : MonoBehaviour
                 {
                     keyItemManager.ClearSave();
                 }
-                
+
                 gameMode = GameMode.Clear;
                 if (!onTalk)
                 {
