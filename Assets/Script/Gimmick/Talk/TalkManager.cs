@@ -22,7 +22,6 @@ public class TalkManager : MonoBehaviour
 
     [Header("自分のTalkLoadを指定すること")]
     public TalkLoad talkLoad;
-    //public AudioClip prologueBgm;
 
     //[Header("オプション等UIの設定ここから")]
     //public GameObject skipMenu;
